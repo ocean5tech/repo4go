@@ -10,3 +10,9 @@
         export PATH=$PATH:/usr/local/go/bin
         go version
         code .
+
+# 类型转换
+字符串转基本类型 strconv.Atoi, strconv.ParseXXX
+基本类型转字符串 strconv.Itoa strconv.FormatXXXX
+
+# 格式化输出
